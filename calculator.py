@@ -4,7 +4,9 @@ calculator.py
 
 One function per operation, in order.
 """
+import math
 # First example
+
 import math
 def add(a, b):
     return a + b
@@ -29,5 +31,28 @@ def log(a, b):
 
 def exp(a, b):
     return ab
+
+def add(a, b):
+    return a + b
+
+def subtract(a, b):
+    return a - b
+
+def multiply(a, b):
+    return a * b
+
+
+def logarithm(a, b):
+    if b <= 0:
+        raise ValueError("Logarithm undefined: b must be positive.")
+        # Check that the base a is positive and not equal to 1
+    if a <= 0 or a == 1:
+        raise ValueError("Logarithm base a must be positive and not equal to 1.")
+    return math.log(b, a)
+
+def exponent(a, b):
+    return a**b
+
+
 
 
