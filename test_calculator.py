@@ -1,3 +1,8 @@
+# https://github.com/chavesa09/lab10--LA---AC-.git
+# Partner 1: Luisa Almeida
+# Partner 2: Alejandro Chaves
+
+
 import unittest
 from calculator import *
 
