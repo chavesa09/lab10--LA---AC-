@@ -34,10 +34,10 @@ class TestCalculator(unittest.TestCase):
         self.assertTrue(mul(3, 3) == 9)
 
     def test_divide(self): # 3 assertions
-        self.assertAlmostEqual(div(3, 2 ) , 0.6666666)
-        self.assertTrue(div(9, 1) == 9)
+        self.assertAlmostEqual(div(3, 2 ) , (2/3))
+        self.assertTrue(div(1, 9) == 9)
         self.assertTrue(div(-10, -10) == 1)
-        self.assertTrue(div(-3, 3) == -1)
+        self.assertTrue(div(3, -3) == -1)
 
     ##########################
 
